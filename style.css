@@ -23,7 +23,7 @@
 }
 
 .di{
-    background-color: #7e8d94;
+    background-color: #f6f6f6;
     width: 90%;
     height: 5rem;
 }
@@ -69,4 +69,20 @@ bg-red {
     text-align: center;
     line-height: 250px;
     font-size: 36px;
+
+  }
+
+  .titulo{
+    font-size: 35px;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .categorias{
+    background-color: #f2545b;
+    width: 100%;
+    height: 10rem;
   }
