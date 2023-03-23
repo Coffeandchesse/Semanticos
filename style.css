@@ -89,9 +89,13 @@ bg-red {
   }
 
   .bolentin{
-    background-color: blue;
+    background-color: #19323c;
     padding: 2rem;
     margin: 2rem;
+    color: white;
+    justify-content: center;
+    height: 300px;
+    
   }
 
   .titulo1{
@@ -99,4 +103,45 @@ bg-red {
     text-align: center;
     justify-content: center;
     align-items: center;
+
   }
+
+  .navbar-options{
+    height: 80px;
+    color: black;
+    
+
+
+  }
+
+  
+  .navbar-left img {
+    height: 40px;
+    margin-left: 1340px;
+    margin-top: 10px;
+    
+    
+  }
+
+  .input-options {
+
+    width: 50%;
+    
+  }
+
+
+ .apellido {
+
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-left: 50px;
+ }
+
+  
+  
+  
+  
+  
+  
+  
