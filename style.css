@@ -138,19 +138,15 @@ bg-red {
     margin-left: 50px;
  }
  
- .dropdown-menu {
+ .menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 0;
     right: 0;
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
-  }
-  
-  .dropdown:hover .dropdown-menu {
-    display: block;
   }
   
   
