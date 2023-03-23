@@ -87,3 +87,16 @@ bg-red {
     width: 100%;
     height: 10rem;
   }
+
+  .bolentin{
+    background-color: blue;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  .titulo1{
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
