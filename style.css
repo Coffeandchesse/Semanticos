@@ -94,7 +94,7 @@ bg-red {
     margin: 2rem;
     color: white;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     
   }
 
@@ -117,7 +117,7 @@ bg-red {
   
   .navbar-left img {
     height: 40px;
-    margin-left: 1340px;
+    margin-left: 355%;
     margin-top: 10px;
     
     
@@ -125,8 +125,18 @@ bg-red {
 
   .input-options {
 
-    width: 50%;
+    width: 35%;
+    height: 15%;
+    border-radius: 20px;
     
+    
+  }
+
+  .botonbotonsuscribirse1{
+
+    
+    width: 140px;
+
   }
 
 
