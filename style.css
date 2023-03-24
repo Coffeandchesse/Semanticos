@@ -52,25 +52,47 @@ bg-red {
     color: #d9d9d9;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-rows: repeat(2, 250px);
-    grid-template-columns: repeat(4, 250px);
-    gap: 20px;
-    justify-content: center;
-    align-content: center;
-    margin-top: 50px;
-  }
+
+
 
   
-  .square {
-    background-color: #ccc;
-    width: 250px;
-    height: 250px;
-    text-align: center;
-    line-height: 250px;
-    font-size: 36px;
+.square-shadow1 {
+    background-color: black;
+    width:  200px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 300;
+    
 
+  }
+
+  .square-shadow2 {
+    background-color: black;
+    width:  200px;
+    height: 300px;
+    margin-left: 210px;
+    
+}
+
+.square-shadow3 {
+    background-color: black;
+    width:  200px;
+    height: 300px;
+    margin-top: 10px;
+
+}
+.square-shadow4 {
+    background-color: black;
+    width:  200px;
+    height: 300px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+    
+
+  }
+  .ofertas {
+    display: flex;
   }
 
   .titulo{
@@ -165,6 +187,22 @@ bg-red {
 
 
   }
+  
+  .fila {
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    margin-bottom: 10px; /* Espacio entre filas */
+    margin-left: 20px;
+
+  }
+  
+  .columna {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px; /* Espacio entre columnas */
+    background-color: gray;
+  }
+  
   
   
   
