@@ -184,6 +184,13 @@ bg-red {
   .imgcarrusel1 {
 
     height: 600px;
+}
+
+.contenedor {
+        display: flex;
+        flex-direction: column;
+     
+      
 
 
   }
@@ -193,7 +200,6 @@ bg-red {
     justify-content: center; /* Centrar el contenido horizontalmente */
     margin-bottom: 10px; /* Espacio entre filas */
     margin-left: 20px;
-
   }
   
   .columna {
@@ -202,6 +208,8 @@ bg-red {
     margin-right: 10px; /* Espacio entre columnas */
     background-color: gray;
   }
+
+
   
   
   
