@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .bg-red {
     background-color: #f2545b;
 }
@@ -51,6 +57,8 @@ bg-red {
 .text-gray {
     color: #d9d9d9;
 }
+
+
 
 
 
@@ -136,6 +144,13 @@ bg-red {
 
   }
 
+  #carrito-icon {
+    width: 30px;
+    height: 30px;
+    
+  }
+  
+
   
   .navbar-left img {
     height: 40px;
@@ -196,20 +211,24 @@ bg-red {
   }
   
   .fila {
-    display: flex;
+    display: grid;
     justify-content: center; /* Centrar el contenido horizontalmente */
     margin-bottom: 10px; /* Espacio entre filas */
     margin-left: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    
   }
   
   .columna {
-    width: 260px;
+    
     height: 330px;
-    margin-right: 15px; /* Espacio entre columnas */
+    margin-right: 15px; 
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    color: red;  
+    color: red; 
+     
+    
   }
 
   .columna:hover {
