@@ -137,28 +137,17 @@ bg-red {
   }
 
   .navbar-options{
-    height: 80px;
+
     color: black;
     
 
 
   }
 
-  #carrito-icon {
-    width: 30px;
-    height: 30px;
-    
-  }
-  
 
   
-  .navbar-left img {
-    height: 40px;
-    margin-left: 355%;
-    margin-top: 10px;
-    
-    
-  }
+
+ 
 
   .input-options {
 
@@ -197,8 +186,11 @@ bg-red {
   }
   
   .imgcarrusel1 {
+    object-fit: contain;
+  height: 100%;
+  width: 100%;
 
-    height: 600px;
+   
 }
 
 .contenedor {
@@ -216,20 +208,25 @@ bg-red {
     margin-bottom: 10px; /* Espacio entre filas */
     margin-left: 20px;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    flex-wrap: wrap
     
   }
   
   .columna {
     
-    height: 330px;
+    height: 300px;
     margin-right: 15px; 
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     color: red; 
-     
+    align-items: center;
+    
+
     
   }
+    
+
 
   .columna:hover {
     border: solid 4px #19323c;
@@ -240,10 +237,131 @@ bg-red {
     color: #f6f6f6;
   }
 
+  .dropdown-menu {
+    width: 200px;
+  }
 
 
+
+
+
+
+
+.div-conedorS {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  
+    
+  
+}
+
+.cajadeventa{
+
+  width: 178vh;
+  height: 1000px;
+
+}
+
+
+.img-del-prducto {
+  width: 700px;
+  height: 510px;
+  background-color: white;
+
   
   
+
+
+}
+
+
+.imgcarrusel2 {
+
+  height: 450px;  
+ 
+
+  
+
+}
+
+
+.div-info {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  left: 675px;
+  float: left;
+  bottom: 450px;
+  
+}
+
+.pventastitulo {
+  font-size: 25px;
+  text-align: center;
+}
+
+.botonventa{
+  width: 115px;
+  height: 55px;
+  border: none;
+  background-color: #f2545b;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.botonventa:hover {
+  border: solid 4px #19323c;
+}
+
+
+
+.botonventap {
+  border: none;
+  background-color: #f2545b;
+  color: white;
+  
+
   
   
+}
+
+
+
+
+.contenedorc {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #19323c;
   
+}
+
+.columnac1 {
+  background-color: white;
+
+}
+
+.columnac2 {
+  text-align: right;
+  background-color: white;
+}
+
+
+.letraPc2 {
+
+  font-size: 25px;
+
+
+
+}
+
+
+
+
+
+  
+  
+
+  
+
+
+
