@@ -258,7 +258,7 @@ bg-red {
 
 .div-conedorS {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-gap: 20px;
   
     
@@ -337,12 +337,12 @@ bg-red {
 
 
 
-/* .contenedorc {
+ .contenedorc {
   display: grid;
   grid-template-columns: 50% 50%;
   background-color: #19323c;
   
-} */
+} 
 
 .columnac1 {
   background-color: white;
